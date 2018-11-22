@@ -8,8 +8,8 @@ git config --global user.email // 이메일 넣기, local은 --global만 마찬�
 git remote add origin https://github.com/내주소/git_practice.git // github와 온라인 연결
 git push -u origin master // github로 전송한다
 * 만약 repo1 denied to repo2 에러 메세지가 뜨면(다른 repo와 충돌 일어나서..) 제어판 -> 윈도우 사용자 계정 -> 자격증명관리(credential) -> windows 자격 증명에서 git 부분을 지우자
-
-
+git remove -v // 현재 저장소 위치 보여준다
+git remove set-url origin 새저장소 주소 // 저장소 위치를 새저장소 주소로 바꿔준다
 
 git init // git 시작, create new git repository
 git status // working directory와 staging area 사이의 파일내 자료 변화가 있고, repository에 아직 올라가 있지 않으면 빨간색으로 표시됨
