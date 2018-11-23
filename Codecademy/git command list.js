@@ -29,12 +29,11 @@ git config user.name "myname" // 만약 local user name은 다르게 하고 싶�
 git config --global user.email // 이메일 넣기, local은 --global만 마찬가지로 빼면된다.
 ///git id 두 개 쓸 경우 쓰지 말자git config --global credential.helper wincred // HTTPS를 쓸 경우, 내 username 과 password를 기억하게 한다.
 git remote -v // github의 저장소 보여주기
-git remove set-url origin 새저장소 주소 // 저장소 위치를 새저장소 주소로 바꿔준다
+git remote set-url origin 새저장소 주소 // 저장소 위치를 새저장소 주소로 바꿔준다
 git remote add origin 내주소/git_practice.git // github와 온라인 연결
 git push -u origin master // github로 전송한다
 // 만약 repo1 denied to repo2 에러 메세지가 뜨면(다른 repo와 충돌 일어나서..) 제어판 -> 윈도우 사용자 계정 -> 자격증명관리(credential) -> windows 자격 증명에서 git 부분을 지우자
-git remote -v // 현재 저장소 위치 보여준다
-git remote set-url origin 새저장소 주소 // 저장소 위치를 새저장소 주소로 바꿔준다
+
 git clone 대상주소 내가저장할주소 // 다른 사람이 작업한 git을 내 git repo에 저장한다 (새로 생성 가능)
 git fetch // 위에서 clone한 remote로부터 내 로컬 master로 가져온다 혹은 fetch가 지정된(git remote -v로 확인 가능) 경로로부터 바뀐 내용들을 remote branch라는 안 보이는 branch에 따로 저장한다(merge는 아직 하지 않는다.)
 git merge origin/master // remote origin으로부터 내 로컬 master로 merge 한다
