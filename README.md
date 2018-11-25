@@ -10,9 +10,10 @@ My Learning Tracker
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
 | Responsive Web |              |              |              |              |              |              |
-| JQuery         |              |              |              |              |              |              |
+| jQuery         |              |              |              |              |              |              |
 | React          |              |              |              |              |              |              |
 | Python         |              |              |  √           |              |              |              |
+| Node.js        |              |              |              |              |              |              |
 | Django         | √            |              |              |              |              |              |
 | REST API       |              |              |              |              |              |              |
 | Database(SQL)  |              | √            |              |              |              |              |
