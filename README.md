@@ -4,8 +4,8 @@ My Learning Tracker
 
 | Skills         | Inception    | Basic        | Intermediate | Good         | Confident    | Excellent    |
 | :------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| HTML           |              | √            |              |              |              |              |
-| CSS            |              | √            |              |              |              |              |
+| HTML           |              |              |  √           |              |              |              |
+| CSS            |              |              |  √           |              |              |              |
 | JavaScript     |              |              |  √           |              |              |              |
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
@@ -24,6 +24,12 @@ My Learning Tracker
 | Statistics     |              |              | √            |              |              |              |
 | Linear Algebra |              | √            |              |              |              |              |
 | Machine Learning|              |              |              |              |              |              |
+
+
+Nov.25 2018
+-----------
+#### Revisited HTML / CSS classes in Codecademy in order to perform real project. Built one basic website using HTML, CSS syntas(see Dasmoto). Finished all HTML courses and on the middle of CSS box model classes. Look forward to completing all CSS classes tomorrow.
+
 
 
 Nov.24 2018
