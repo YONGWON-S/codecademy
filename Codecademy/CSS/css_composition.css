@@ -1,0 +1,105 @@
+/* <!DOCTYPE html> index.html 내용
+<html>
+<head>
+  <title>The Rise of Soccer in The US</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_writer-avatar.jpg" class="writer-img">
+    <h3 class="byline">Article By: Jane Dover</h3>
+    <h1>How the Rise of Soccer in the US Is Changing the Face of Youth Sports</h1>
+    <h2>The focus on soccer in youth sports programs is exploding nation-wide</h2>
+    <p>Now that big business is involved you can be assured you'll see a continued rise in popularity in soccer across the country for years to come. </p>
+  </div>
+  <div class="image">
+    <p class="caption">The local semi- pro soccer team in Seattle, WA plays an international friendly</p>
+  </div>
+</body>
+</html> */
+
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: bold; /*fontfamily에 따라 bold가 안되기도 한다 */
+}
+
+.image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg"); /*백그라운드 이미지 설정 */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white; /*음영 처리 */
+  color: black;
+  opacity: 0.75; /* 0으로 가면 완전 투명, 1로 가면 완전 불투명 */
+}
+
+h1 {
+  color: #FFF;
+  font-family: Georgia;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+	text-align: left;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  font-family: Georgia;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+.byline {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.content {
+  padding: 40px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}

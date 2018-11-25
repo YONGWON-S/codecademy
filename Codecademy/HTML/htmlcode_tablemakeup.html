@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ship To It - Company Packing List</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <table> <!-- table 시작 -->
+    <tr> <!-- table row 만들기 -->
+      <th scope="row">Company name</th> <!-- table heading 지정 scope는 heading의 영향력 or 성질 결정 -->
+      <th scope="col">Number of Items to Ship</th>
+      <th>Next Action</th>
+    </tr>
+		<tr>
+      <td>Adam's Greenwork</td> <!-- table data 기입 td를 추가할 수록 column이 늘어난다 -->
+      <td>14</td>
+      <td>Package Item</td>
+    </tr>
+  </table>
+  <ul class="navigation">
+    <li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+    <li class="active">Action List</li>
+    <li>Profiles</li>
+    <li>Settings</li>
+  </ul>
+
+  <div class="search">Search the table</div>
+	<table>
+    <thead> <!-- table head 부분을 묶어준다 thead tbody 같은 설정은 semantic sense를 높여 section 보호 및 css 설정 때 용이하다 thead 82 is essentially a box to hold your headings for the table. It is used along with tbody and tfoot to make up the entirety of a table - header, body, footer.
+On the otherhand, th 64 is a single heading element -->
+    <tr>
+      <th>Company Name</th>
+      <th>Number of Items to Ship</th>
+      <th>Next Action</th>
+    </tr>
+    </thead>
+    <tbody> <!-- table head를 제외한 body 부분 -->
+    <tr>
+      <td colspan="2">Adam's Greenworks</td> <!-- 해당 셀이 열 방향으로 2개 걸친다 -->
+      <td rowspan="2">14</td> <!-- 해당 셀이 행 방향으로 2개 걸친다 table head에도 이걸 적용할 수 있는데 만약 적용한다면 <th scope=”rowgroup”> 식으로 scope까지 걸어준다-->
+      <td>Package Items</td>
+    </tr>
+    <tr>
+  		<td>Davie's Burgers</td>
+  		<td>2</td>
+  		<td>Send Invoice</td>
+		</tr>
+		<tr>
+  		<td>Baker's Bike Shop</td>
+  		<td>3</td>
+  		<td>Send Invoice</td>
+		</tr>
+		<tr>
+  		<td>Miss Sally's Southern</td>
+  		<td>4</td>
+  		<td>Ship</td>
+		</tr>
+		<tr>
+  		<td>Summit Resort Rentals</td>
+  		<td>4</td>
+  		<td>Ship</td>
+		</tr>
+    <tr>
+  		<td>Strike Fitness</td>
+  		<td>1</td>
+  		<td>Enter Order</td>
+		</tr>
+    </tbody>
+    <tfoot>
+      <td>Total</td>
+      <td>28</td>
+    </tfoot>
+  <table>
+</body>
+</html>

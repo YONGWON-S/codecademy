@@ -1,0 +1,57 @@
+/* <!DOCTYPE html>
+<html>
+<head>
+  <link href="./style.css" type="text/css" rel="stylesheet"> <!-- style insertion -->
+  <!-- <p style="font-size: 20px;" style inline 삽입법 -->
+  <title>Vacation World</title>
+</head>
+<body>
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/explorer.jpeg" />
+  <h1 class="title cursive capitalize">Top Vacation Spots</h1> <!-- multiple class -->
+  <h5 id="article-title">By: Stacy Gray</h5>
+  <h6 class="publish-time">Published: 2 Days Ago</h6>
+  <div class="bubble">
+    <h1>hahaha</h1>
+    <h2>hehehehe</h2>
+  </div>
+</body>
+</html> */
+
+/* CSS classes are meant to be reused over many elements. By writing CSS classes, you can style elements in a variety of ways by mixing classes on HTML elements. */
+/*  While classes are meant to be used many times, an ID is meant to style only one element. As we'll learn in the next exercise, IDs override the styles of tags and classes. Since IDs override class and tag styles, they should be used sparingly and only on elements that need to always appear the same. */
+
+
+p, h5 { /* p와 h5가 같은 attribute를 써서 중복될 땐 간편하게 ,로 분리하고 따로따로 쓸수 있다. */
+  font-family: Georgia;
+}
+
+h1 {
+color: maroon !important; /* 가장 최우선순위, 하지만 되도록 쓰지 말자 */
+
+}
+
+.bubble h2 { /*위의 div에 bubble이 지정되있을 때, div 속 h2만 선택적으로 css적용하고 싶으면 이와같이 class나 id를 먼저 쓰고 tag로 지정할 수 있다. */
+  font-size:20px; /* 참고로 .bubble h2와 h2 .bubble은 같은 순위다. #id가 이것들보다 우선순위한다. */
+}
+
+h2.destination {
+font-family: cursive;
+}
+
+#article-title { /* id */
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.description h5 { /* class 선택법 만약 상이한 클래스가 동일한 색깔을 한 tag에 적용한다면 어느게 이길까? 가장 아래에 있는 클래스가 더 나중에 적용되어 이긴다*/
+color: teal;
+}
+
+h5{
+color: rebeccapurple;
+}
+
+.title {
+color: teal;
+
+}
