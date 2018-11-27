@@ -1,3 +1,56 @@
+* {
+  box-sizing: border-box; /* 기존 box model은 조작하다면 서로간의 균형을 맞추기 어렵다. border-box로 설정하면 padding과 border에 영향 받지 않는 값을 준다. 이 때 border-box는 width+padding+border의 합이다. default는 content-box 이다*/
+}
+
+h2 {
+  color: red;
+  text-transform: lowercase; /* 대문자, 소문자, 첫글자 대문자, full-width 등을 설정한다. */
+  letter-spacing: 10px; /* 글자 간격 */
+  font-size: 14px;
+  line-height: 48px; /* 줄 간격 */
+  text-align: center;
+  border: 1px dotted red; /* 굵기는 숫자 외에 thin medium thick 라인 형태는 none dotted solid등 10종류 */
+  border-radius: 100%; /*border 각진 정도 100%는 완전히 둥글다 */
+  padding-top: 20px; /* 아니면 padding: 20px; 로 한 번에 지정할 수 있다. */
+  padding-bottom: 20px; /* 혹은 padding 20px 30px 은 top-bottom, left-right 로 묶어서 지정 가능 */
+  padding-left: 30px; /* 혹은 padding 20px 30px 20px 30px 순으로 t - r - b -l 순으로 묶어 지정 가능 */
+  padding-right: 30px;
+  min-width: 200px; /* 윈도우 창을 줄이거나 늘려도 min / max 이상으로 변하지 않게 설정 */
+  max-width: 800px;
+  min-height: 200px;
+  max-height: 300px;
+  overflow: scroll; /* 윈도우 창이 작아지거나 다른 영역을 침범할 우려가 있을 경우 설정한다. hidden은 숨기기, scroll은 스크롤바가 나타난다. */
+}
+
+.navigation ul {
+  margin: 0; /* padding과 같이 margin-top 혹은 margin 20px 40px 혹은 margin 20px 30px 20px 30px 처럼 줄 수 있다 */
+  padding: 0;
+  text-align: center;
+  display: none; /* 완전히 지우고, content가 있던 공간도 없어진다. */
+  visibility: hidden; /* content는 지우지만, 있던 자리는 빈 공간으로 남는다. */
+}
+
+.pull-quote {
+  width: 350px; /* margin을 auto(자동으로 center 조정)로 설정하고 싶은면 꼭 width를 설정한다. 안 그러면 body 영역 전체를 차지한다. */
+  margin: 0 auto;
+}
+
+* {                 CSS box 설정을 초기화한다!
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
 body {
   background-color: white;
   font-family: 'Raleway', sans-serif;
@@ -21,6 +74,14 @@ body {
   letter-spacing: 4px;
 }
 
+#main {
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+
+}
+
 #banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
@@ -37,26 +98,8 @@ body {
   border: 3px solid white;
 }
 
-#main {
-  padding: 40px;
-  text-align: center;
-  width: 400px;
-}
 
-h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
-  text-align: center;
-}
 
-h2 {
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  text-align: center;
-  border: 1px dotted red;
-}
 
 h3 {
   color: red;
@@ -71,8 +114,6 @@ p {
   line-height: 48px;
 }
 
-.pull-quote {
-}
 
 .byline {
   border-bottom: 1px solid LightGrey;

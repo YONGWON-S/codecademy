@@ -19,6 +19,11 @@ h2 {
 .blue {
   font-weight: bold;
   color: blue;
+  display: inline;
+}
+
+p {
+  display: inline;
 }
 
 .first {
