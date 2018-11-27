@@ -1,0 +1,34 @@
+/* color 양식 */
+color: #88FF88; /* or #8F8 */
+color: red;
+bacground-color: red; /* 음영 처리 */
+color: rgb(143, 188, 143);
+color: rgba(143, 188, 143, 0.5); /* a는 불투명도, 높을수록(1) 불투명, 낮을수록 투명(0)) */
+color: hsl(120, 60%, 70%); /* hue color 지도에서 선택하기, 첫번째는 각도, 두번째는 원심으로부터의 깊이(숫자가 높을수록 바깥), 세번째는 밝기) RGB는 밝기 조정이 불가능한 데 비해 Hue 체계는 가능! */
+color: hsla(120, 60%, 70%, 0.7); /* 위의 a와 동일 */
+
+font-size: 14px;
+font-weight: bold; /* or 300이하는 light, 700 이상이 bold 사이의 값, 400이 default다 */
+font-style: italic;
+word-spacing: 0.2em; /* 단어 사이의 space, em 단위를 쓰며 0.05 단위로 쓰자 */
+letter-spacing: 0.02em; /* 글자 사이, 단위는 em */
+text-transform: uppercase; /* 대문자나 lowercase 소문자 결정 */
+text-align: center;
+line-height: 1.4; /* 줄 간격 설정, 1.4는 글자 대비 상대배수(여기선 1.4배)이다. em, px보단 이 상대배수가 본문 전체 readjust에 좋다 */
+font-family: "Garamond", serif; /* 만약 Garamond 서체가 컴퓨터에 내장되어 있지 않으면 serif체 중 아무거나 불러온다 */
+
+/* 혹은 fonts.google.com 으로 가서 원하는 폰트를 찾은 후 embed 부분을 복사해 html 파일에 넣으면 된다. */
+
+/*google font url을 브라우저에서 연 후, /* latin 부분의 아랫 부분을 복사 후 css파일에 붙인다. */
+@font-face {
+  font-family: 'Space Mono'
+  font-style: normal;
+  font-weight: 700;
+  src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v3/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2) format('woff2');
+}
+
+/* 따로 로컬 파일을 만든 경우 아래와 같이 css파일에 넣으면 된다. */
+@font-face {
+  font-family: 'Glegoo';
+  src: url("../fonts/Glegoo-Regular.ttf") format('format');
+}

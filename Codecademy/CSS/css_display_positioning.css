@@ -1,0 +1,72 @@
+img {
+  border-radius: 100%; /* 삽입된 그림 파일을 둥글게 처리한다. */
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: relative; /* 자기 default position 대비 상대 위치 결정, relative는 아래 요소들을 적어줘야 한다. 단위는 px, ems, %를 쓴다 */
+  top: 20px; /* 위 object 대비 아래로 20px 이동 */
+  left: 50px; /* 왼쪽 object 대비 오른쪽으로 50px 이동 */
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: absolute; /* 해당 object를 포함하는 parent container(윈도우 창 같은)의 사이드를 기준으로 움직인다. 다른 object의 위치는 무시 */
+  top: 20px; /* 현재 위치에서 윈도우 창으로부터 20px 아래로 더 내려감. */
+  left: 50px; /* 만약 이 위치를 적어주지 않으면 무슨 일이 일어날지 모르니 주의! */
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: fixed; /* scroll에 관계 없이 해당 object가 화면에 고정된다. */
+  top: 20px; /* parent container와의 위치 결정 */
+  left: 50px;
+}
+
+.box-top {
+  background-color: Aquamarine;
+  position: relative;
+  z-index: 2; /* object들이 서로 겹칠 경우 z-index로 순서를 결정해 줄 수 있다. 숫자가 클 수록 화면 앞으로 나온다. */
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: absolute; /* z-index는 position이 static(기본)일 때는 설정이 불가하니 position을 relative나 absolute등 바꿔준다. */
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* <em><strong><a> 같은 요소를 inline이라고 한다. 이 요소들은 css가 아니라 html 문서에서 지정한다.
+하지만 <p> <h1>를 쓰면 브라우저에서 줄을 바꿔 나타낸다. 이런 요소들은 inline이 아니다. 이런 요소들을 inline을 쓰고 싶으면 display를 쓴다. */
+h1 {
+  display: inline; /* 이렇게 하면 h1도 다른 inline 요소들과 같이 '한줄' 에 같이 쓰인다. 주의할 점은 상대 요소도 display: inline; 이 들어가야 한다! */
+} /* 자기 width와 height를 가질 수 없다. */
+
+/* 위에 말한 <a> <p> <h1> 은 block 성질을 가지고 있다. 이들은 무조건 자기 줄을 차지하고, 따로 지정하지 않으면 full width로 나타내어진다.
+그리고 <em> inline 요소들이 자기만의 한 줄을 가지고 싶다면 block 지정해준다. */
+
+strong
+  display: block; { /* <strong>이 자기 줄을 가지게 한다. 자기 width와 height를 가질 수 있다 */
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block; /* 자기 영역을 가지면서도 그 영역을 만족시키면 다른 inline-block 성질을 가진 요소들과 한 줄에 배치한다. 자기 사이즈를 가질 수 있다 */
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  float: left; /* 요소를 left or right로 쭉 옮긴다. Floating elements are removed from the normal flow of a document and pushed to either the left or right of their containing parent element. float를 설정할 때 width를 설정하는 것이 좋다. 안 그러면 컴퓨터는 full-width로 생각하여 float를 적용해도 안 움직인다. */
+}
+
+div {
+  width: 200px;
+  float: left; /* float를 쓸 경우 height가 다른 요소들이 같은 줄로 침범할 우려가 있다. 이 경우 clear를 쓴다 */
+}
+div.special {
+  clear: left; /* left를 지정할 경우 자신의 왼편에 다른 요소가 있을 경우 한 줄 내려온다. */
+}

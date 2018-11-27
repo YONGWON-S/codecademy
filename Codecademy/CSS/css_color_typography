@@ -1,0 +1,6 @@
+/* color 양식 */
+color: rgb(143, 188, 143);
+color: #88FF88 /* or #8F8 */
+color: red;
+bacground-color: red; /* 음영 처리 */
+color: hsl(120, 60%, 70%) /* hue color 지도에서 선택하기, 첫번째는 각도, 두번째는 원심으로부터의 깊이(숫자가 높을수록 바깥), 세번째는 밝기) RGB는 밝기 조정이 불가능한 데 비해 Hue 체계는 가능! */
