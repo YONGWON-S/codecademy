@@ -4,8 +4,8 @@ My Learning Tracker
 
 | Skills         | Inception    | Basic        | Intermediate | Good         | Confident    | Excellent    |
 | :------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| HTML           |              |              |  √           |              |              |              |
-| CSS            |              |              |  √           |              |              |              |
+| HTML           |              | √            |              |              |              |              |
+| CSS            |              | √            |              |              |              |              |
 | JavaScript     |              |              |  √           |              |              |              |
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
