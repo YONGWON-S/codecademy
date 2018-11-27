@@ -26,6 +26,10 @@ My Learning Tracker
 | Linear Algebra |              | √            |              |              |              |              |
 | Machine Learning|              |              |              |              |              |              |
 
+Nov.27 2018
+-----------
+#### Learned git display including Grid and git basic design such as color and typography. Hopefully will be ready for building basic website tomorrow.
+
 
 Nov.25 2018
 -----------
