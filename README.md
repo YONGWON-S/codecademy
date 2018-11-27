@@ -28,7 +28,7 @@ My Learning Tracker
 
 Nov.27 2018
 -----------
-#### Learned git display including Grid and git basic design such as color and typography. Hopefully will be ready for building basic website tomorrow.
+#### Learned git display including Grid and git basic design such as color and typography. Hopefully will be ready for building basic website after tomorrow.
 
 
 Nov.25 2018
