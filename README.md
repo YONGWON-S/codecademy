@@ -9,7 +9,7 @@ My Learning Tracker
 | JavaScript     |              |              |  √           |              |              |              |
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
-| Responsive Web |              |              |              |              |              |              |
+| Responsive Web |              | √            |              |              |              |              |
 | jQuery         |              |              |              |              |              |              |
 | React          |              |              |              |              |              |              |
 | Python         |              |              |  √           |              |              |              |
