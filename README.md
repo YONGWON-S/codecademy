@@ -25,7 +25,9 @@ My Learning Tracker
 | Statistics     |              |              | √            |              |              |              |
 | Linear Algebra |              | √            |              |              |              |              |
 | Machine Learning|              |              |              |              |              |              |
+
 <br>
+
 Nov.29 2018
 -----------
 #### Mastered responsive design of CSS in Codecademy. very fascinating at dynamic change as browser's size change. Paralled with freeCodeCamp to enhance comprehension. Tomorrow will dive in Flex design.
