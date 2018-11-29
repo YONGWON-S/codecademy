@@ -34,25 +34,22 @@ Nov.29 2018
 Nov.27 2018
 -----------
 #### Learned git display including Grid and git basic design such as color and typography. Hopefully will be ready for building basic website after tomorrow.
-
+<br>
 
 Nov.25 2018
 -----------
 #### Revisited HTML / CSS classes in Codecademy in order to perform real project. Built one basic website using HTML, CSS syntas(see myLearningLog/Codecademy/CSS/css_project_dasmoto/). Finished all HTML courses and on the middle of CSS box model classes. Look forward to completing all CSS classes tomorrow.
-
-
+<br>
 
 Nov.24 2018
 -----------
 #### Completed Git / Github class in Codecademy. Learnt how to add, commit and push to my github repository. Also, learnt how manage branch and collaborate with my peer through git. git push requires specific setting and understanding. It is necessary to get familiar with this version control system.
-
-
+<br>
 
 Nov.22 2018
 -----------
 #### Finished Command line class in Codecademy. There should more numerous commands which I haven't learnt, I have enough skills to link between programming language and my computer.
-
-
+<br>
 
 Sep.01 2018 ~ Nov.14 2018
 -----------
