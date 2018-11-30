@@ -27,6 +27,7 @@ My Learning Tracker
 | Machine Learning|              |              |              |              |              |              |
 
 <br>
+
 Nov.30 2018
 -----------
 #### Finished CSS Flex class and making a page of project introduced by Codecademy. A concept of both Flex and Grid is not clear yet, but I felt it is essential to layout a page of websites. Once I finished this project, I need to explore this concept by making my own website.
