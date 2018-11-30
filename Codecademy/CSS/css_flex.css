@@ -1,0 +1,36 @@
+.container {
+  width: 150px;
+  border: 1px solid grey;
+  display: inline-flex; /* 1차원 정렬에 쓰인다. flex 나 inline-flex 옵션을 가진다. flex를 사용할 경우 flex가 없는 container들은 block 지정되어 각각 한 줄씩 배치된다. */
+} /* 만약 container들을 다 한 줄 배치하고 싶은면 모든 container들을 inline-flex로 지정하는 방법이 있다? */
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* To position the items from left to right, we use a property called justify-content. */
+}
+
+/*  "no extra space" means that margins and borders will be respected, */
+/* flex items above shrink proportionally when the flex container is too small */
+/* 위에까지는 flex container를 다뤘지만 이제부턴 flex item들을 다룬다 */
+
+.top.side {
+    flex-grow: 1;
+}
+.top.center { /* 비슷한 비율로 side와 center가 늘어난다. */
+    flex-grow: 1;
+}
+.middle.side { /* side는 점점 축소하고 center는 그만큼 늘어난다. */
+
+}
+.middle.center {
+    flex-grow: 1;
+}
+.bottom.side { /* center가 약간 더 늘어나는 비율이 크다. */
+    flex-grow: 1;
+}
+/* 각 grow값에 따른 도형 변화를 에버노트에서 확인하자 */
+
+/* flex-shrink는 기본값이 1, flex-grow는 기본값이 0: 그래서 item들은 창이 축소될때 자동 축소된다. */
+/* margin은 위 명령어에 영향 받지 않는다. */
+
+/* flex-shrink는 값이 커질수록 축소 비율이 커진다. */
