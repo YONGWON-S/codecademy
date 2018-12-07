@@ -6,3 +6,55 @@ html {
   opacity: 0.9;
   text-align: center;
 }
+
+body {
+  grid-template-areas:
+  "header header"
+  "main main"
+  "nav nav"
+  "location location"
+  "footer footer"
+}
+
+#header {
+  grid-area: header;
+  position: fixed;
+  height: 69px;
+}
+
+.container1 {
+  display: inline-flex;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.menu {
+  align-content: flex-end;
+  text-decoration: underline;
+}
+
+.main {
+  grid-area: main;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  width: 1200px;
+  height: 700px;
+}
+
+.bigpic {
+  background-color: black;
+}
+
+.teaofmonth {
+  grid-area: nav;
+}
+
+.location {
+  grid-area: location;
+}
+
+footer {
+  grid-area: footer;
+}

@@ -1,0 +1,13 @@
+<script> </script> <!-- 이 사이 안에 JS 코드들을 삽입할 수 있다. -->
+<script src='script.js'></script> <!-- JS 파일 import -->
+
+<!-- 브라우저는 html 커맨드를 순차적으로만 불러온다, 만약 여러 연쇄적인 script가 떨어져 있거나 순서가 바뀌어 있으면, 에러가 날 수 있다 -->
+<script id="blue" src="turnBlue.js" defer></script> <!-- defer 가 붙으면 JS 파일 대신 다른 HTML 요소들을 먼저 로딩한다. -->
+<script id="blue" src="turnBlue.js" async></script> <!-- 가장 많이 쓰인다. 해당 스크립을 로딩할 때 다른 html요소도 동시에 로딩한다. -->
+
+<!-- the convention is to put the script tag in the <head> element and to use the defer and async attributes. -->
+
+<!-- A parent node is the closet connected node to another node in the direction towards the root.
+A child node is the closest connected node to another node in the direction away from the root. -->
+
+<!-- 9가지 타입의 노드가 있다. html title p 같은 Element 와 글자,숫자들은 text 타입이라 부른다 Elements are the building units of HTML web pages -->
