@@ -28,6 +28,11 @@ My Learning Tracker
 
 <br>
 
+Dec.07 2018
+-----------
+#### Produced some webpage model using CSS Flex and Grid together. Seemed it's not clear when used display: flex; screen became unordered and messy. Need to go back to the last lesson or project of flex classes. Also get into DOM classes today. Looked similar to basic HTML structure. Need to explore more tomorrow.
+
+
 Nov.30 2018
 -----------
 #### Finished CSS Flex class and making a page of project introduced by Codecademy. A concept of both Flex and Grid is not clear yet, but I felt it is essential to layout a page of websites. Once I finished this project, I need to explore this concept by making my own website.
