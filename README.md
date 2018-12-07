@@ -28,6 +28,11 @@ My Learning Tracker
 
 <br>
 
+Nov.30 2018
+-----------
+#### Finished CSS Flex class and making a page of project introduced by Codecademy. A concept of both Flex and Grid is not clear yet, but I felt it is essential to layout a page of websites. Once I finished this project, I need to explore this concept by making my own website.
+<br>
+
 Nov.29 2018
 -----------
 #### Mastered responsive design of CSS in Codecademy. very fascinating at dynamic change as browser's size change. Paralled with freeCodeCamp to enhance comprehension. Tomorrow will dive in Flex design.
