@@ -31,6 +31,7 @@ My Learning Tracker
 Dec.07 2018
 -----------
 #### Produced some webpage model using CSS Flex and Grid together. Seemed it's not clear when used display: flex; screen became unordered and messy. Need to go back to the last lesson or project of flex classes. Also get into DOM classes today. Looked similar to basic HTML structure. Need to explore more tomorrow.
+<br>
 
 
 Nov.30 2018
