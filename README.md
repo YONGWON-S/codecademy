@@ -28,6 +28,19 @@ My Learning Tracker
 
 <br>
 
+
+Dec.13.2018
+-----------
+#### Make my first game using DOM structures. Code is very simple, but its dynamics seems unlimited!
+<br>
+
+
+Dec.11.2018
+-----------
+#### Practiced Javascript on how to make interactive website liking between HTML and JavaScipt. This is very basic course, but very useful course to make websites.
+<br>
+
+
 Dec.07 2018
 -----------
 #### Produced some webpage model using CSS Flex and Grid together. Seemed it's not clear when used display: flex; screen became unordered and messy. Need to go back to the last lesson or project of flex classes. Also get into DOM classes today. Looked similar to basic HTML structure. Need to explore more tomorrow.
