@@ -28,6 +28,10 @@ My Learning Tracker
 
 <br>
 
+Dec.14.2018
+-----------
+#### Completed my first game making project using HTML, CSS, JavaScript with DOM! It wasn't difficult because I was helped by helping videos honestly. However this experience will be my big step for being a developer definitely! While I was making the game, I, once more, felt the programming is very sensitive for variable names!!! It doesn't work if there is typo or misword!!! Ughhhhhhhh!
+
 
 Dec.13.2018
 -----------
