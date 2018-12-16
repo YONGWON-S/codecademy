@@ -28,9 +28,16 @@ My Learning Tracker
 
 <br>
 
+Dec.16.2018
+-----------
+#### Finished the DOM class and just got into DOM project through Codecademy. Because curriculum is too simple, I felt I just learnt tickle of DOM structures. I need to learn it more through my own project or other courses.
+<br>
+
+
 Dec.14.2018
 -----------
 #### Completed my first game making project using HTML, CSS, JavaScript with DOM! It wasn't difficult because I was helped by helping videos honestly. However this experience will be my big step for being a developer definitely! While I was making the game, I, once more, felt the programming is very sensitive for variable names!!! It doesn't work if there is typo or misword!!! Ughhhhhhhh!
+<br>
 
 
 Dec.13.2018
