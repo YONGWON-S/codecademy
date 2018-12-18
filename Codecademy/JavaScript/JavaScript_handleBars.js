@@ -43,8 +43,8 @@ const context = {
 const compiledHtml = template(context);
 const displayElements = document.getElementById('display');
 displayElements.innerHTML = compiledHtml;
-
 /*html 문서 //this 사용 응용
+
 <script id="languagesTemp" type="text/x-handlebars-template">
 {{#each languages}}
 <div class="card">
