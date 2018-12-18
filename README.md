@@ -10,7 +10,7 @@ My Learning Tracker
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
 | Responsive Web |              | √            |              |              |              |              |
-| jQuery         |              |              |              |              |              |              |
+| jQuery         | √            |              |              |              |              |              |
 | React          |              |              |              |              |              |              |
 | Python         |              |              |  √           |              |              |              |
 | Node.js        |              |              |              |              |              |              |
@@ -27,6 +27,12 @@ My Learning Tracker
 | Machine Learning|              |              |              |              |              |              |
 
 <br>
+
+Dec.19.2018
+-----------
+#### Completed 3pages of website using handleBar.js. It is not quite dynamic, but good to know advantage of DOM and handleBars. Also started jQuery looking helpful to make interactive JavaScript structure simpler!
+<br>
+
 
 Dec.16.2018
 -----------
