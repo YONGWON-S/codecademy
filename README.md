@@ -10,7 +10,7 @@ My Learning Tracker
 | Command Line   |              |              |  √           |              |              |              |
 | Git / Github   |              |              |  √           |              |              |              |
 | Responsive Web |              | √            |              |              |              |              |
-| jQuery         | √            |              |              |              |              |              |
+| jQuery         |              | √            |              |              |              |              |
 | React          |              |              |              |              |              |              |
 | Python         |              |              |  √           |              |              |              |
 | Node.js        |              |              |              |              |              |              |
@@ -27,6 +27,12 @@ My Learning Tracker
 | Machine Learning|              |              |              |              |              |              |
 
 <br>
+
+Dec.20.2018
+-----------
+#### Made some interactive websites using jQuery. Jquery seems very convenient and easy to use! (This is beginner's misunderstood?). Well I worry that I might forget about DOM lessons I learnt prior to jQuery classes because of jQuery's good things.
+<br>
+
 
 Dec.19.2018
 -----------
