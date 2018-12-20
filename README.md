@@ -28,6 +28,12 @@ My Learning Tracker
 
 <br>
 
+Dec.21.2018
+-----------
+#### Completed jQuery and its project assignment. I got a hunch in jQuery and its convenience. But why it was said that is cliche these days? I may know this when I master React?
+<br>
+
+
 Dec.20.2018
 -----------
 #### Made some interactive websites using jQuery. Jquery seems very convenient and easy to use! (This is beginner's misunderstood?). Well I worry that I might forget about DOM lessons I learnt prior to jQuery classes because of jQuery's good things.
