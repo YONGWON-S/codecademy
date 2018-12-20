@@ -66,3 +66,30 @@ $(document).ready(() => {
 });
 
 // 그 외 event listner: 'dblclick', 'mousemove', 'keydown', 'keypress', 'keyup'
+
+$(document).ready(() => {
+  $('.menu-button').on('mouseenter', () => {
+    $('.nav-menu').show();
+    $('.menu-button').addClass('button-active'); // removeClass와 같이 css요소 클래스를 추가/제거한다. !! . 을 클래스 이름 앞에 안 붙이니 주의!
+    $('.menu-button').animate({ // 애니매에션 형식으로 바뀐다
+      fontSize: '24px'
+    }, 200);
+    $('.nav-menu').removeClass('hide');
+  })
+  $('.nav-menu').on('mouseleave', () => {
+    $('.nav-menu').hide();
+    $('.menu-button').css({ // css 요소를 바꾸는 콜백 함수
+      color: '#EFEFEF',
+      backgroundColor: '#303030'
+    });
+    $('.menu-button').animate({
+      fontSize: '18px'
+    }, 100);
+  })
+});
+{
+$('.menu-button').on('click', () => {
+  $('.nav-menu').toggleClass('hide') // css class 열고 닫기
+  $('.menu-button').toggleClass('button-active')
+})
+});
