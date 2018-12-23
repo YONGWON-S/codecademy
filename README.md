@@ -28,6 +28,12 @@ My Learning Tracker
 
 <br>
 
+Dec.23.2018
+-----------
+#### Repeated lesson from Class to Module. It seems that I don't understand its flexibility perfectly. Hopefully I get a sense of it in real project.
+<br>
+
+
 Dec.21.2018
 -----------
 #### Completed jQuery and its project assignment. I got a hunch in jQuery and its convenience. But why it was said that is cliche these days? I may know this when I master React?
