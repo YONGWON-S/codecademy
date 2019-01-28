@@ -28,6 +28,10 @@ My Learning Tracker
 
 <br>
 
+Jan.29.2019
+-----------
+#### I've stopped my learning almost one month! What my lazyness! I beg pardon to myself of future. Today I learnt async and await. I will finish up this up to tomorrow!!
+
 Dec.23.2018
 -----------
 #### Repeated lesson from Class to Module. It seems that I don't understand its flexibility perfectly. Hopefully I get a sense of it in real project.
