@@ -108,3 +108,39 @@ async function asyncAwaitVersion() {
  let secondValue = await returnsSecondPromise(firstValue);
  console.log(secondValue);
 }
+
+
+
+// try catch를 이용한 error handling
+async function hostDinnerParty () {
+  try {
+    let dinner = await cookBeanSouffle();
+    console.log(`${dinner} is served!`);
+	} catch(error) {
+    console.log(error)
+    console.log('Ordering a pizza!');
+  }
+}
+hostDinnerParty();
+
+// 한꺼번에 await 사용하기
+async function serveDinner() {
+  let vegetablePromise = steamBroccoli();
+  let starchPromise = cookRice();
+  let proteinPromise = bakeChicken();
+  let sidePromise = cookBeans();
+  console.log (`Dinner is served. We're having ${await vegetablePromise}, ${await starchPromise}, ${await proteinPromise}, and ${await sidePromise}.`)
+} // 여기서 await를 지운 항목은 pending으로 나온다.
+serveDinner();
+
+// promise.all을 이용한 await
+//Promise.all() allows us to take advantage of asynchronicity— each of the four asynchronous tasks can process concurrently. Promise.all() also has the benefit of failing fast, meaning it won't wait for the rest of the asynchronous actions to complete once any one has rejected. As soon as the first promise in the array rejects, the promise returned from Promise.all() will reject with that reason.
+async function serveDinnerAgain () {
+  const foodArray = await Promise.all([steamBroccoli(), cookRice(), bakeChicken(), cookBeans()])
+  let vege = foodArray[0];
+  let star = foodArray[1];
+  let chic = foodArray[2];
+  let bean = foodArray[3];
+  console.log(`Dinner is served. We're having ${vege}, ${star}, ${chic}, and ${bean}.`)
+}
+serveDinnerAgain();
