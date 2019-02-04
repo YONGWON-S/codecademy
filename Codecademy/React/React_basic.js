@@ -71,3 +71,21 @@ if (coinToss() === 'heads') { //조건문은 JSX안에 넣지 못한다 대신 �
     <img src={pics.doggy} />
 )
 }
+
+const img = <img src={coinToss() == 'heads' ? pics.kitty : pics.doggy} />; // if 구문을 못 넣는 대신에 이렇게 활용할 수 있다
+
+const people = ['Rowe', 'Prevost', 'Gare'];
+const peopleLis = people.map((person, i) => //map 함수는 꽤 유용하니 익혀놓자!
+<li key={'person_' + i}>{person}</li> // key는 html의 id같은 존재다. 값들을 shuffle하거나 기억할 필요가 있을 때 써보
+);
+ReactDOM.render(
+  <ul>{peopleLis}</ul>,
+  document.getElementById('app')
+)
+
+const greatestDivEver = React.createElement( 
+	"div",
+  null,
+  "i am div"
+);
+const greatestDivEver = <div>i am div</div>; //위와 아래는 같다
